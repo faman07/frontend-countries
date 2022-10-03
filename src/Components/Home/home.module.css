@@ -1,0 +1,15 @@
+.homeContainer{
+    background-image: url('./mapa_home.jpg');
+    /* min-height: 100vh;
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;   */
+    margin-top: 10px;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}

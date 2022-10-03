@@ -1,0 +1,22 @@
+.cardCountryContainer{
+    display: flex;
+    width: 20px,fit-content;
+    color: white;
+    background-color: rgb(66, 54, 131);
+    font-size: 15px;
+    margin:3px;
+    text-align: center; 
+}
+
+.cardCountryContainer .btnClose{
+    border:none;
+    background-color: transparent;
+    color: white;
+    margin-top: 0px;
+   margin-right: 0px;
+}
+
+.cardCountryContainer .btnClose:hover{
+    cursor: pointer;
+    
+}

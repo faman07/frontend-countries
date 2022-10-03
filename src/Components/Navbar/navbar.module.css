@@ -1,0 +1,89 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    color:rgb(2, 0, 0);
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+.navbar select{
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 3px;
+    cursor:pointer;
+    margin-right: 50px;
+}
+
+.navbar select option{
+    background-color:rgb(255, 254, 254);
+    cursor:pointer;
+
+}
+.navbar ul li{
+    height: 50px;
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar .btnActivity{
+    
+    border-radius: 5px;
+    cursor:pointer;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(120, 114, 202);
+    border: solid 2px rgb(96, 102, 189);
+}
+.navbar .btnActivity:hover{
+    background-color: cornflowerblue;
+    color:white;
+} 
+.navbar h2{
+    color:rgb(252, 0, 0);
+    
+}
+.navbar h2:hover{
+    cursor: pointer;
+}
+
+.bfiltro {
+    margin:0px 5px 5px 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #6855d3;
+    border-radius: 1px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px 12px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border-color: rgb(112, 105, 211);
+    color: rgb(134, 128, 226);
+    background-position: 100%;
+    background-size: 400%;
+   
+}
+
+.bfiltro:hover {
+    background-position: 0;
+    color: #fff;
+    background: rgb(132, 110, 214);
+    outline: 0;
+}
+
+.icono {
+    padding-left: 20px;
+    width: 60px;
+    height: 60px;
+    
+    
+}
